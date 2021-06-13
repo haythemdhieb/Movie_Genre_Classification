@@ -3,4 +3,4 @@ path_to_data: "data/trainingSet.csv"
 hidden_size: 8
 batch_size : 8
 learning_rate: 0.001
-epoch: 10
+epoch: 1000

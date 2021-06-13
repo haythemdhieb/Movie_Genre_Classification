@@ -25,7 +25,6 @@ for index, row in enumerate(data):
 data["Plot"]=data["Plot"].apply(lambda x:bag_of_words(x,all_words))
 X_train = np.array(data["Plot"].tolist(),dtype="float32")
 y_train = np.array(data["label"].tolist())
-print(y_train)
 #Convert training data into a pytorch dataset 
 class GenreClassficationData(Dataset):
     def __init__(self):
