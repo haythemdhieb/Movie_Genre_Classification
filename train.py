@@ -17,7 +17,7 @@ learning_rate = config["learning_rate"]
 num_epochs = config["epoch"]
 # loading the data
 GenreClassficationData = DataLoader(GenreClassficationData(), batch_size, shuffle=True, num_workers=1)
-device = torch.device("cuda")
+device = torch.device("cuda" if torch.cuda_is_available else "cpu")
 model = GenreClassficationModel(input_size, hidden_size, output_size).to(device)
 loss_function = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
