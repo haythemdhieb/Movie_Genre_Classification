@@ -14,6 +14,7 @@ def bag_of_words(sentence, all_words):
     Function that creates the bag of words embeeding vector for a given sentence
     """
     bag = np.zeros(len(all_words), dtype=np.float32)
+    print(len(all_words))
     for (index, word) in enumerate(sentence):
         if word in all_words:
             bag[all_words.index(word)] = 1
