@@ -1,5 +1,5 @@
 # Movie_Genre_Classification
-In this project we aim to classify the genre of movie using a free public data set(https://github.com/ishmeetkohli/imdbGenreClassification/tree/master/data).
+In this project we aim to classify the genre of movie using a free public data set. (https://github.com/ishmeetkohli/imdbGenreClassification/tree/master/data).
 ## Environement Setup
 ================================================================================
 
@@ -43,7 +43,7 @@ tests/
 
 ## 2. Running the workflow (Script Mode)
 --------------------------------------------------------------------------------
-To run an experiment on the optimization workflow:
+Follow these steps to train the model and run an inference:
 
 1- ``` python src/train.py```
 
