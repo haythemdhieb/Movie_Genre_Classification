@@ -1,6 +1,0 @@
-path_to_data: "data/trainingSet.csv"
-#Set hyperparemeters
-hidden_size: 8
-batch_size : 8
-learning_rate: 0.001
-epoch: 1000

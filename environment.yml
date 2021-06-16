@@ -1,0 +1,13 @@
+name: MGC
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.7
+  - pandas=1.0.5
+  - nltk=3.5
+  - pip = 20.0.2
+  - pre-commit
+  - scikit-learn=0.23.1
+  - pytest
+  - pytorch>=1.7.0

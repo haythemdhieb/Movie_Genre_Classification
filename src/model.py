@@ -1,11 +1,13 @@
-import torch
 import torch.nn as nn
 import sys
 
 sys.path.append("./")
-
-#Model creation 
+# Model creation
 class GenreClassficationModel(nn.Module):
+    """
+    The architecture of  model that will be used for classification
+    """
+
     def __init__(self, input_size, hidden_size, num_classes):
         super(GenreClassficationModel, self).__init__()
         self.layer1 = nn.Linear(input_size, hidden_size)
