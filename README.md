@@ -1,5 +1,5 @@
 # Movie_Genre_Classification
-In this project we aim to classify the genre of a  movie using a free public data set. (https://github.com/ishmeetkohli/imdbGenreClassification/tree/master/data).
+In this project we aim to classify the genre of a  movie using a free public data set. (https://github.com/ishmeetkohli/imdbGenreClassification/tree/master/data). We use a simple network (for faster training and good performance) which gives us good results.
 ## Environement Setup
 ================================================================================
 
