@@ -23,6 +23,7 @@ conda env update MGC --file environment.yml
 ```
 ## 1. Project structure (Script Mode)
 ================================================================================
+
 This is the folder structure of the project:
 
 ```
